@@ -1,0 +1,52 @@
+[
+    {
+        "id" : "1",
+        "name" : "William Dane",
+        "username" : "william@xyz ",
+        "email" : "william.dane@gmail.com",
+        "action" : "edit-icn"
+    },
+    {
+        "id" : "2",
+        "name" : "Jhone Doe",
+        "username" : "jhone@abc",
+        "email" : "jhone.doe@gmail.com",
+        "action" : "edit-icn"
+    },
+    {
+        "id" : "3",
+        "name" : "Marie Jane",
+        "username" : "william@xyz ",
+        "email" : "william.dane@gmail.com",
+        "action" : "edit-icn"
+    },
+    {
+        "id" : "4",
+        "name" : "Marie Jane",
+        "username" : "mariejane@xyz",
+        "email" : "marie.jane@gmail.com",
+        "action" : "edit-icn"
+    },
+    {
+        "id" : "5",
+        "name" : "Prateek Pujaree",
+        "username" : "prateek@xyz",
+        "email" : "prateek.pujaree@gmail.com",
+        "action" : "edit-icn"
+    },
+    {
+        "id" : "6",
+        "name" : "Ajay Pandey",
+        "username" : "ajaypan@xyz",
+        "email" : "ajay.pandey@gmail.com",
+        "action" : "edit-icn"
+    },
+    {
+        "id" : "7",
+        "name" : "Boriss Mentona",
+        "username" : "boridMen@xyz",
+        "email" : "borris.mentona@gmail.com",
+        "action" : "edit-icn"
+    }
+
+]

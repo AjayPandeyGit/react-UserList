@@ -1,0 +1,441 @@
+/* custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* reset styles */
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #f0edee;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+.parentWrap {
+  min-height: 100%;
+  position: relative;
+}
+
+/* header css */
+
+header {
+  background: #333333;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.topHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.logo {
+  width: 122px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+nav ul li.active a,
+nav ul li a:hover {
+  color: #ffa800;
+}
+
+nav ul li.active a .arrow,
+nav ul li a:hover .arrow {
+  border-color: #ffa800;
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2.5px;
+  margin: 0 0 0 2px;
+  position: relative;
+  top: -2px
+}
+
+.down {
+
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* content */
+
+.list-content {
+  padding: 30px 0 90px;
+}
+
+.list-content h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+  color: #404447;
+}
+
+/* table css */
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+table * {
+  position: relative;
+}
+
+table td,
+table th {
+  padding-left: 25px;
+}
+
+table thead tr {
+  height: 60px;
+  background: #fff;
+  color: #404447;
+  border-bottom: 1px solid #f2eff0;
+}
+
+table th {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+table tbody tr {
+  height: 48px;
+  border-bottom: 1px solid #f2eff0;
+  background: #fbfeff;
+}
+
+table tbody tr:last-child {
+  border: 0;
+}
+
+table td {
+  font-size: 13px;
+  color: #5b6268;
+}
+
+table td,
+table th {
+  text-align: left;
+}
+
+table td.l,
+table th.l {
+  text-align: right;
+}
+
+table td.c,
+table th.c {
+  text-align: center;
+}
+
+table td.r,
+table th.r {
+  text-align: center;
+}
+
+.edit-icn {
+  width: 16px;
+  height: 16px;
+  background: url(./images/edit-icn.png) center center no-repeat;
+  display: block;
+  margin: 0 0 0 10px;
+  opacity: 0.6;
+}
+
+.edit-icn:hover {
+  opacity: 1;
+}
+
+/* footer css */
+
+footer {
+  background: #585656;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+/* popup css */
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.popup {
+  width: 500px;
+  margin: auto;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.popup-header {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  position: relative;
+}
+
+.popup-header h4 {
+  font-size: 16px;
+  color: #404447;
+  font-weight: 500;
+}
+
+.popup-body {
+  padding: 20px;
+}
+
+.form-row {
+  margin: 0 0 15px;
+  display: flex;
+  align-items: center;
+}
+
+.form-row label {
+  font-size: 13px;
+  color: #333333;
+  width: 100px;
+  display: block;
+}
+
+.form-row input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 7px 10px;
+  width: 280px;
+  transition: all ease 0.3s;
+}
+
+.form-row input:focus {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.popup-footer {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.popup-footer button {
+  background: #ffa800;
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 7px 15px;
+  border-radius: 3px;
+  margin: 0 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+}
+
+.popup-footer button:hover {
+  opacity: 0.8;
+}
+
+button.cancel {
+  background: transparent;
+  border: 1px solid #ffa800;
+  color: #ffa800;
+}
+
+/* close icon */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 15px;
+  width: 12px;
+  height: 12px;
+  opacity: 0.3;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close:before,
+.close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 12px;
+  width: 1.5px;
+  background-color: #333;
+}
+
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: rotate(-45deg);
+}
+
+
+@media screen and (max-width: 600px) {
+  .topHeader {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  nav ul li a {
+    font-size: 12px;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+
+
+  .list-content {
+    padding: 30px 10px 90px;
+  }
+
+  table {
+    display: block;
+    background: transparent;
+    border-radius: 0;
+  }
+
+  table>*,
+  table tr,
+  table td,
+  table th {
+    display: block;
+  }
+
+  table thead {
+    display: none;
+  }
+
+  table tbody tr {
+    height: auto;
+    padding: 8px 0;
+    margin: 0 0 10px;
+    border-radius: 3px;
+  }
+
+  table tbody tr td {
+    padding-left: 45%;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  table tbody tr td:last-child {
+    margin-bottom: 0;
+    border-bottom: 0;
+  }
+
+  table tbody tr td:before {
+    position: absolute;
+    font-weight: 700;
+    width: 40%;
+    left: 10px;
+    top: 0;
+  }
+
+  table tbody tr td:nth-child(1):before {
+    content: "Sr. No.";
+  }
+
+  table tbody tr td:nth-child(2):before {
+    content: "Name";
+  }
+
+  table tbody tr td:nth-child(3):before {
+    content: "Username";
+  }
+
+  table tbody tr td:nth-child(4):before {
+    content: "Email Id";
+  }
+
+  table tbody tr td:nth-child(5):before {
+    content: "Action";
+  }
+  .overlay{
+    padding: 5px;
+    position: fixed;
+    overflow: hidden;
+  }
+  .popup{
+    width: 100%;
+  }
+}
