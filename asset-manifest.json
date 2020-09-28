@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/http//AjayPandeyGit.github.io/react-UserList/static/css/main.0727bc9d.chunk.css",
+    "main.js": "/http//AjayPandeyGit.github.io/react-UserList/static/js/main.ac820caf.chunk.js",
+    "main.js.map": "/http//AjayPandeyGit.github.io/react-UserList/static/js/main.ac820caf.chunk.js.map",
+    "runtime-main.js": "/http//AjayPandeyGit.github.io/react-UserList/static/js/runtime-main.0688c55b.js",
+    "runtime-main.js.map": "/http//AjayPandeyGit.github.io/react-UserList/static/js/runtime-main.0688c55b.js.map",
+    "static/js/2.87123d3e.chunk.js": "/http//AjayPandeyGit.github.io/react-UserList/static/js/2.87123d3e.chunk.js",
+    "static/js/2.87123d3e.chunk.js.map": "/http//AjayPandeyGit.github.io/react-UserList/static/js/2.87123d3e.chunk.js.map",
+    "index.html": "/http//AjayPandeyGit.github.io/react-UserList/index.html",
+    "precache-manifest.3958fc3597e15a602e04b1d58cb4f332.js": "/http//AjayPandeyGit.github.io/react-UserList/precache-manifest.3958fc3597e15a602e04b1d58cb4f332.js",
+    "service-worker.js": "/http//AjayPandeyGit.github.io/react-UserList/service-worker.js",
+    "static/css/main.0727bc9d.chunk.css.map": "/http//AjayPandeyGit.github.io/react-UserList/static/css/main.0727bc9d.chunk.css.map",
+    "static/js/2.87123d3e.chunk.js.LICENSE.txt": "/http//AjayPandeyGit.github.io/react-UserList/static/js/2.87123d3e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0688c55b.js",
+    "static/js/2.87123d3e.chunk.js",
+    "static/css/main.0727bc9d.chunk.css",
+    "static/js/main.ac820caf.chunk.js"
+  ]
+}
